@@ -1,2 +1,2 @@
-# VigySport_Frontend
+# VigySport Frontend
 Interfaz de usuario para VigySport.Desarrollada en Next.js, React y Tailwind CSS. 
