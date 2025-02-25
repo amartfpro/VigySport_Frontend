@@ -1,12 +1,19 @@
 # VigySport Frontend
-User interface for VigySport. Developed in Next.js, React and Tailwind CSS.
+User interface for **VigySport. Developed in Next.js, React and Tailwind CSS.
 
-Structure:
-│── public/            # Static images and assets
+frontend/
+│── public/               # Static assets (images, icons, etc.)
 │── src/
-│ ├── components/      # Reusable components
-│ ├── pages/           # Application pages (Next.js)
-│ ├── styles/          # Global styles (Tailwind)
-│── .env               # Environment variables
-│── package.json       # Dependencies and scripts
-│── next.config.js     # Next.js configuration
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Next.js page-based routing
+│   ├── styles/           # Global styles (Tailwind)
+│   ├── hooks/            # Custom React hooks
+│   ├── utils/            # Utility functions
+│   ├── services/         # API service calls
+│   ├── context/          # Global state management (if applicable)
+│── .env                  # Environment variables
+│── next.config.js        # Next.js configuration
+│── tailwind.config.js    # Tailwind CSS configuration
+│── tsconfig.json         # TypeScript configuration (if applicable)
+│── package.json          # Dependencies and scripts
+│── README.md             # Project documentation
